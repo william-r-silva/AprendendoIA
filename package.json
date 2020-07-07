@@ -1,0 +1,26 @@
+{
+  "name": "ia-para-dominar-o-mundo",
+  "version": "1.0.0",
+  "description": "IA para dominar o mundo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev_01": "nodemon ./Versao_0.1_Funcionando/index.js",
+    "dev_02": "nodemon ./Versao_0.2_Funcionando/index.js",
+    "git": "git add * && git commit -m default_menssage && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RockpunkZikaGG/IA_Para_Dominar_O_Mundo.git"
+  },
+  "author": "RockpunkZikaGG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RockpunkZikaGG/IA_Para_Dominar_O_Mundo/issues"
+  },
+  "homepage": "https://github.com/RockpunkZikaGG/IA_Para_Dominar_O_Mundo#readme",
+  "dependencies": {
+    "loglevel": "^1.6.8",
+    "nodemon": "^2.0.3"
+  }
+}
